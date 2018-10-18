@@ -10,7 +10,7 @@ int main(int argc, char const *argv[])
   print_integers(int_value,int_pointer);
   change_integers(int_value,int_pointer);
   print_integers(int_value,int_pointer);
-  //
+  //Beide Variablen ändern sich, weil wenn wir den pointernter ändern ändert sich auch die Variable dahinter.
   return 0;
 }
 
